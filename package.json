@@ -9,7 +9,7 @@
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
     "prepublishOnly": "npm run build",
-    "_postinstall": "install-peers -f && cd example && npm i",
+    "postinstall": "install-peers -f && cd example && npm i",
     "installpeers": "install-peers -f && cd example && npm i",
     "start-example": "cd example && npm start",
     "deploy-example": "cd example && npm run deploy",
