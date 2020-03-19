@@ -1,3 +1,3 @@
-import { TestComponent } from './components/TestComponent/TestComponent';
+import { FaqComponent } from './components/FaqComponent/FaqComponent';
 
-export { TestComponent };
+export { FaqComponent };

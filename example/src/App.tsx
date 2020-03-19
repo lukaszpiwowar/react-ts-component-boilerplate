@@ -1,20 +1,12 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
 
-import { TestComponent } from './reactComponentLib';
-
-const StyledDiv = styled.div`
-  padding: 10px;
-  background-color: blue;
-  color: white;
-`;
+import { FaqComponent } from './reactComponentLib';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <TestComponent text="Styled Component from React library" />
-        <StyledDiv>Example App styled component</StyledDiv>
+        <FaqComponent text="Styled Component from React library" />
       </div>
     );
   }

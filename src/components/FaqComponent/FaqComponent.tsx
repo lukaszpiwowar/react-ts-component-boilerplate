@@ -3,13 +3,13 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   padding: 10px;
-  color: blue;
+  color: black;
 `;
 
 export interface TestComponentProps {
   text?: string;
 }
 
-export const TestComponent: React.FC<TestComponentProps> = ({ text }) => (
-  <Wrapper>{text ? text : 'Test Component'}</Wrapper>
+export const FaqComponent: React.FC<TestComponentProps> = ({ text }) => (
+  <Wrapper>XD {text ? text : 'Test Component'}</Wrapper>
 );

@@ -21,11 +21,13 @@ function __makeTemplateObject(cooked, raw) {
     return cooked;
 }
 
-var Wrapper = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  padding: 10px;\n  color: blue;\n"], ["\n  padding: 10px;\n  color: blue;\n"])));
-var TestComponent = function (_a) {
+var Wrapper = styled.div(templateObject_1 || (templateObject_1 = __makeTemplateObject(["\n  padding: 10px;\n  color: black;\n"], ["\n  padding: 10px;\n  color: black;\n"])));
+var FaqComponent = function (_a) {
     var text = _a.text;
-    return (React.createElement(Wrapper, null, text ? text : 'Test Component'));
+    return (React.createElement(Wrapper, null,
+        "XD ",
+        text ? text : 'Test Component'));
 };
 var templateObject_1;
 
-export { TestComponent };
+export { FaqComponent };

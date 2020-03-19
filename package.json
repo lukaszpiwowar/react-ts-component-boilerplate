@@ -1,5 +1,5 @@
 {
-  "name": "react-ts-component-boilerplate",
+  "name": "faq-component",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.cjs.js",
@@ -10,7 +10,7 @@
     "build-watch": "rollup -c -w",
     "prepublishOnly": "npm run build",
     "_postinstall": "install-peers -f && cd example && npm i",
-    "installpeers": "install-peers -f && cd example && npm i",
+    "install-peers": "install-peers -f && cd example && npm i",
     "start-example": "cd example && npm start",
     "deploy-example": "cd example && npm run deploy",
     "dev": "concurrently --kill-others \"npm run build-watch\" \"npm run start-example\"",
