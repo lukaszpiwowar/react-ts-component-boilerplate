@@ -30,3 +30,11 @@ Developing library with components built with styled-components is challenging b
 ## Typescript
 
 This boilerplate lets you develop your libraries in Typescript and you can simultaneously test it in Typescript example create-react-app.
+
+## User Note
+
+19.03.2020
+All dependency are updated
+
+I changed name one of command to `_postinstall` and remove `dist` from `.gitignore`, this setup let me use modules directly with git repo without publishing to npm repo
+ 
