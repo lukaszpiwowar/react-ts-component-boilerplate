@@ -1,2 +1,2 @@
-import { FaqComponent } from './components/FaqComponent/FaqComponent';
-export { FaqComponent };
+import { FaqComponent, RowItem } from './components/FaqComponent/FaqComponent';
+export { FaqComponent, RowItem };
